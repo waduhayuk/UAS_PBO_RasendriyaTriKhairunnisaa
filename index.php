@@ -1,9 +1,9 @@
 <?php
 // 1. Include file koneksi dan semua class yang dibutuhkan
-require_once "koneksi.php";
-require_once "karyawan/KaryawanKontrak.php";
-require_once "karyawan/KaryawanTetap.php";
-require_once "karyawan/KaryawanMagang.php";
+require_once "koneksi/database.php";
+require_once "class/KaryawanKontrak.php";
+require_once "class/KaryawanTetap.php";   
+require_once "class/KaryawanMagang.php"; 
 
 // 2. Siapkan array untuk menampung objek berdasarkan kategori
 $daftarKontrak = [];
